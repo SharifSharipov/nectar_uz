@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "652185917101",
+    "project_id": "foodshop-3d6b3",
+    "storage_bucket": "foodshop-3d6b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652185917101:android:fda1d5a3eca17a88b85824",
+        "android_client_info": {
+          "package_name": "nectar.uz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "652185917101-im5uad3lruoser4jmh81lo4vg4ls374t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpT04bs7tgaTvsGL5X6JmbD-kFg8wR8k0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "652185917101-im5uad3lruoser4jmh81lo4vg4ls374t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

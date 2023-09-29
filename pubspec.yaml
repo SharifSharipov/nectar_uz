@@ -1,0 +1,49 @@
+name: nectar_uz
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  change_app_package_name: ^1.1.0
+  cupertino_icons: ^1.0.5
+  flutter_svg: ^2.0.6
+  flutter_screenutil: ^5.8.4
+  firebase_core: ^2.15.0
+  cloud_firestore: ^4.8.3
+  firebase_auth: ^4.7.1
+  firebase_storage: ^11.2.5
+  provider: ^6.0.5
+  curved_navigation_bar: ^1.0.3
+  zoom_tap_animation: ^1.1.0
+  google_sign_in: ^6.1.4
+  image_picker: ^1.0.1
+  cached_network_image: ^3.2.3
+  star_rating: ^0.11.0
+  lottie: ^2.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Move the assets section outside of dev_dependencies
+  # and use a list of strings to specify the assets
+  assets:
+    - assets/images/
+    - assets/svg/
+    - assets/lottie/
+
+  fonts:
+    - family: Gilroy
+      fonts:
+        - asset: assets/fonts/Gilroy-ExtraBold.otf
+        - asset: assets/fonts/Gilroy-Light.otf
+          style: italic
